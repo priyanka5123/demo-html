@@ -1,0 +1,14 @@
+.make-red{
+    color:red;
+}
+li{
+    color: rgb(0, 4, 255);
+}
+.make-bold{
+    font-weight: bold;
+}
+h1{
+    border: 1px solid gray;
+    background-color: rgb(241, 233, 241);
+    font-family: 'Times New Roman', Times, serif;
+}
