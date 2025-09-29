@@ -1,0 +1,11 @@
+.container{
+    height: 50px;
+    border: 3px solid red
+}
+.menu-items-container{
+    list-style: none;
+}
+.menu-items-container li{
+    display: inline;
+    margin-left: 10px;
+}
