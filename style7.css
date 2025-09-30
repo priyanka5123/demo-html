@@ -1,11 +1,40 @@
 .container{
-    height: 50px;
-    border: 3px solid red
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-wrap: wrap;
+    padding: 5px;
 }
 .menu-items-container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.menu-items-container li{
     list-style: none;
 }
 .menu-items-container li{
-    display: inline;
-    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+.button-section{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.button-section button{
+    border: 1px solid white;
+    background-color: rgb(10,83,10);
+    color: white;
+    padding: 3px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
 }
