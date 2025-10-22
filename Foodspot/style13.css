@@ -58,7 +58,7 @@ header .navigation li a{
     font-size: 1em;
     color: white
 }
-.banner .content .btn{
+.btn{
     font-size: 1.5em;
     color: white;
     text-decoration: none;
@@ -92,4 +92,51 @@ header .navigation li a{
     background-color: white;
     box-shadow: 0px 5px 20px gray;
     padding: 10px 100px;
+}
+.titleText{
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+.titleText span{
+    color:#ff0157;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.menu {
+    padding: 80px;
+}
+.title{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap:30px;
+}
+.menu-content .box{
+    width:340px;
+    border:15px solid #fff;
+    box-shadow: 0px 5px 35px lightgray;
+}
+.menu-content .box .imgbx{
+    width: 100%;
+    height: 300px;
+}
+.text{
+    text-align: center;
+    padding: 15px 0px 5px;
+}
+.expert .menu-content .box{
+    width:250px;
+    
+}
+.expert{
+    padding: 80px;
 }
